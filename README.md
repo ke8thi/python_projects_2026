@@ -189,3 +189,169 @@ Add date-based searching
 Add monthly expense summaries
 Improve the command-line interface
 ```
+### Version 3 — Persistence & Improvements
+
+Added persistent storage and additional functionality.
+
+- Save expenses to a JSON file
+- Load expenses automatically when the program starts
+- Data persists after closing and reopening the program
+- Automatically continue expense IDs
+- Convert JSON string IDs back to integer IDs
+- Edit existing expenses
+- Search by category, description, or date
+- Improved expense display
+- Handle missing JSON files
+- Handle empty expense data
+
+---
+
+## 📋 Menu
+
+```text
+==============EXPENSE TRACKER==============
+ -----1.Add Expense -----
+ -----2.View Expense -----
+ -----3.Total Expense -----
+ -----4.Spending by Category ----
+ -----5.Search Expense -----
+------6.Edit Expense-------
+ -----7.Delete Expense -----
+ -----8.Exit ----
+🧾 Expense Structure
+
+Each expense contains:
+
+{
+    "Amount": 500,
+    "Category": "Food",
+    "Date": "2026-09-05",
+    "Description": "Lunch"
+}
+
+Each expense is stored using a unique ID.
+
+Example:
+
+{
+    1: {
+        "Amount": 500,
+        "Category": "Food",
+        "Date": "2026-09-05",
+        "Description": "Lunch"
+    }
+}
+💾 JSON Persistence
+
+Version 3 uses JSON for persistent storage.
+
+Expenses are saved in:
+
+expenses.json
+
+The program automatically loads existing expenses when it starts and saves changes when expenses are added, edited, or deleted.
+
+This means expenses are preserved even after the program is closed.
+
+🔎 Search
+
+Expenses can be searched using:
+
+Category
+Description
+Date
+
+For example, searching:
+
+2026
+
+can find expenses whose date contains 2026.
+
+🛡️ Validation & Error Handling
+
+The application handles several invalid inputs, including:
+
+Non-numeric menu choices
+Menu choices outside the valid range
+Non-numeric expense amounts
+Zero or negative amounts
+Empty categories
+Empty descriptions
+Empty dates
+Invalid date formats
+Invalid expense IDs
+Invalid y/n responses
+Missing JSON file
+🧠 Python Concepts Practiced
+
+This project helped practice:
+
+Variables
+Data types
+Input and output
+Conditional statements
+Loops
+Lists
+Dictionaries
+Functions
+String methods
+Exception handling
+try, except, else
+raise
+Modules and imports
+datetime
+JSON
+File handling
+Dictionary operations
+Searching and aggregation
+CRUD-style operations
+🛠️ Technologies
+Python
+JSON
+Python Standard Library
+
+Modules used:
+
+datetime
+json
+📁 Project Structure
+python_projects_2026/
+│
+├── expenses.py
+├── expenses_v2.py
+├── expenses_v3.py
+├── expenses.json
+└── README.md
+📈 Version History
+V1 — Basic Expense Tracker
+
+Implemented the core expense tracking functionality.
+
+V2 — Validation & Error Handling
+
+Added input validation and exception handling.
+
+V3 — Persistence & Features
+
+Added JSON persistence, automatic loading, editing, improved searching, and better display.
+
+🎯 Learning Objective
+
+The main goal of this project was to strengthen Python fundamentals by building a practical application from scratch and gradually improving it through multiple versions.
+
+Instead of introducing advanced concepts such as OOP, the project focuses on building a strong foundation with core Python.
+
+🏆 Status
+
+Version 3 — Completed ✅
+
+The Expense Tracker project is complete.
+
+👨‍💻 Author
+
+Keerthi Reddy
+
+Built as part of my Python learning and project practice.
+
+
+
