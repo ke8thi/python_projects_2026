@@ -124,3 +124,31 @@ python_projects_2026/
 │   └── README.md
 │
 └── README.md
+More projects will be added as I continue learning Python.
+
+🎯 Learning Goal
+
+The main goal of this repository is to strengthen my Python programming skills through hands-on projects and gradually progress from basic Python programming to more advanced concepts.
+
+🚀 Future Projects
+
+Planned projects include:
+
+📝 Quiz Application
+📚 Personal Library Manager
+📊 Sales Data Analyzer
+
+These projects will gradually introduce new Python concepts and later support my learning path toward Data Science and Machine Learning.
+
+📊 Progress
+Project	Version	Status
+💰 Expense Tracker	V3	✅ Completed
+🎓 Student Grade Management System	V1	✅ Completed
+📝 Quiz Application	—	🔜 Planned
+📚 Personal Library Manager	—	🔜 Planned
+📊 Sales Data Analyzer	—	🔜 Planned
+👨‍💻 Author
+
+Keerthi Reddy
+
+Learning Python by building projects step-by-step. 🐍🔥
