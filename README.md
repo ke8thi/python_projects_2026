@@ -31,7 +31,7 @@ The project was developed through multiple versions to practice core Python conc
 - Automatic ID continuation
 - Data persistence across program restarts
 
-📁 [View Expense Tracker](./Expense%20Tracker)
+📁 [View Expense Tracker](https://github.com/ke8thi/python_projects_2026/tree/main/Expense%20Tracker)
 
 ---
 
@@ -39,9 +39,9 @@ The project was developed through multiple versions to practice core Python conc
 
 A command-line Student Grade Management System built using Python.
 
-This project focuses on practicing dictionaries, nested dictionaries, functions, loops, conditions, calculations, and basic student data management.
+The project was developed in multiple versions to practice dictionaries, nested dictionaries, functions, loops, conditions, calculations, input validation, and exception handling.
 
-**Current Version:** V1 — Completed ✅
+**Current Version:** V2 — Completed ✅
 
 #### Features
 
@@ -54,8 +54,15 @@ This project focuses on practicing dictionaries, nested dictionaries, functions,
 - Search students by ID
 - Delete students
 - Menu-driven interface
+- Student ID validation
+- Duplicate ID prevention
+- Name validation
+- Marks validation (`0–100`)
+- Input validation
+- Exception handling
+- `y/n` continuation validation
 
-📁 [View Student Grade Management System](./Student%20Grade%20Management%20System)
+📁 [View Student Grade Management System](https://github.com/ke8thi/python_projects_2026/tree/main/Student%20Grade%20Management%20System)
 
 ---
 
@@ -95,12 +102,15 @@ Through these projects, I am gradually practicing:
 Each project is developed in multiple versions.
 
 ### Version 1
+
 Build the basic functionality using the Python concepts I already know.
 
 ### Version 2
+
 Improve the project by adding validation and exception handling.
 
 ### Later Versions
+
 Gradually introduce new concepts and useful features as I learn them.
 
 The goal is to **build projects while learning**, rather than trying to create everything at once.
@@ -121,6 +131,7 @@ python_projects_2026/
 │
 ├── Student Grade Management System/
 │   ├── student_grade_v1.py
+│   ├── student_grade_v2.py
 │   └── README.md
 │
 └── README.md
@@ -143,7 +154,7 @@ These projects will gradually introduce new Python concepts and later support my
 📊 Progress
 Project	Version	Status
 💰 Expense Tracker	V3	✅ Completed
-🎓 Student Grade Management System	V1	✅ Completed
+🎓 Student Grade Management System	V2	✅ Completed
 📝 Quiz Application	—	🔜 Planned
 📚 Personal Library Manager	—	🔜 Planned
 📊 Sales Data Analyzer	—	🔜 Planned
