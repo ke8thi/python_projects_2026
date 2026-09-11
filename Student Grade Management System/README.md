@@ -1,30 +1,47 @@
-# 🎓 Student Grade Management System
+# Student Grade Management System
 
-A simple command-line Student Grade Management System built using Python.
+A console-based Python project for managing student details and marks.
 
-This project was created to practice and strengthen Python concepts such as dictionaries, nested dictionaries, functions, loops, conditions, and basic data management.
+This project was built to practice Python dictionaries, nested dictionaries, loops, conditions, functions, calculations, input validation, and exception handling.
 
-## 🚀 Version 1 Features
+## Features
 
+### V1 – Basic Student Management
 - Add students
-- Store student ID and name
-- Store marks for Mathematics, Science, and English
 - View all students
-- Calculate total marks for each student
-- Calculate average marks for each student
+- Calculate total marks
+- Calculate average marks
 - Calculate grades
-- Search for a student by ID
-- Delete a student by ID
-- Menu-driven interface
+- Search for a student
+- Delete a student
+- Exit the program
 
-## 📋 Menu
+### V2 – Validation & Error Handling
+- Menu option validation
+- Student ID validation
+- Duplicate ID prevention
+- Positive ID validation
+- Empty name validation
+- Marks validation
+- Marks restricted to `0–100`
+- Handles non-integer input
+- Search validation for non-existing IDs
+- Delete validation for non-existing IDs
+- `y/n` continuation validation
+- Exception handling using `try-except`
 
-```text
-1. Add Student
-2. View Students
-3. Total Marks
-4. Average Marks
-5. Calculate Grade
-6. Search Student
-7. Delete Student
-8. Exit
+## Data Structure
+
+Student information is stored using a nested dictionary:
+
+```python
+students = {
+    1: {
+        "name": "Keerthi",
+        "marks": {
+            "math": 90,
+            "science": 80,
+            "english": 80
+        }
+    }
+}
