@@ -1,123 +1,108 @@
 # 🐍 Python Projects 2026
 
-A collection of Python projects I am building while learning and strengthening my Python programming skills.
+A collection of Python projects built while learning and strengthening my Python programming skills through hands-on practice.
 
-These projects are developed step-by-step, with each version adding new concepts, features, validation, and improvements.
+The goal of this repository is to move beyond theory by building projects step-by-step, improving them through multiple versions, and practicing real programming concepts such as data structures, functions, validation, exception handling, file handling, and data analysis.
 
 ---
 
-## 📚 Projects
+## 📂 Projects
 
 ### 1. 💰 Expense Tracker
 
-A command-line Expense Tracker built using Python.
+A console-based application for managing and tracking personal expenses.
 
-The project was developed through multiple versions to practice core Python concepts, input validation, exception handling, JSON file handling, and data persistence.
+#### Versions
 
-**Current Version:** V3 — Completed ✅
-
-#### Features
-
+**V1 – Basic Expense Tracker**
 - Add expenses
 - View expenses
-- Calculate total expenses
-- Calculate spending by category
+- Calculate total spending
+- Spending by category
 - Search expenses
-- Edit expenses
 - Delete expenses
+
+**V2 – Validation & Exception Handling**
 - Input validation
 - Exception handling
-- JSON persistence
-- Automatic ID continuation
-- Data persistence across program restarts
+- Invalid input handling
+- Improved user interaction
 
-📁 [View Expense Tracker](https://github.com/ke8thi/python_projects_2026/tree/main/Expense%20Tracker)
+**V3 – Persistence & Advanced Features**
+- JSON data storage
+- Edit expenses
+- Improved search
+- Improved display
+- Persistent expense records
+
+**Status:** ✅ V3 Complete
 
 ---
 
 ### 2. 🎓 Student Grade Management System
 
-A command-line Student Grade Management System built using Python.
+A console-based application for managing student records and analyzing academic performance.
 
-The project was developed in multiple versions to practice dictionaries, nested dictionaries, functions, loops, conditions, calculations, input validation, and exception handling.
+#### Versions
 
-**Current Version:** V2 — Completed ✅
-
-#### Features
-
+**V1 – Basic Student Management**
 - Add students
 - View students
-- Store student marks
 - Calculate total marks
 - Calculate average marks
 - Calculate grades
-- Search students by ID
+- Search students
 - Delete students
-- Menu-driven interface
+
+**V2 – Validation & Exception Handling**
 - Student ID validation
 - Duplicate ID prevention
 - Name validation
-- Marks validation (`0–100`)
-- Input validation
+- Marks validation (0–100)
+- Invalid search/delete handling
+- `y/n` validation
 - Exception handling
-- `y/n` continuation validation
 
-📁 [View Student Grade Management System](https://github.com/ke8thi/python_projects_2026/tree/main/Student%20Grade%20Management%20System)
+**V3 – Performance Analysis**
+- Percentage calculation
+- Top-performing student
+- Lowest-performing student
+- Class average
+- Grade distribution
+- Pass/Fail statistics
+- Edge-case and boundary testing
+
+**Status:** ✅ V3 Complete
 
 ---
 
-## 🛠️ Python Concepts Practiced
+## 🧠 Skills Practiced
 
-Through these projects, I am gradually practicing:
+Through these projects, I have practiced:
 
-- Variables
-- Data types
-- Strings
-- Operators
+- Python fundamentals
+- Variables and data types
 - Conditional statements
-- `for` loops
-- `while` loops
+- Loops
+- Functions
 - Lists
 - Dictionaries
 - Nested dictionaries
-- Functions
-- Lambda functions
-- `*args` and `**kwargs`
-- List and dictionary comprehensions
-- Modules
-- Packages
+- Tuples
+- Sets
+- Input validation
 - Exception handling
 - File handling
 - JSON
-- `datetime`
-- Basic CRUD operations
-- Input validation
-- Unit testing
-- Git and GitHub
+- Searching and deleting data
+- Mathematical calculations
+- Basic data analysis
+- Menu-driven applications
+- Git & GitHub
 
 ---
 
-## 📈 Project Development Approach
-
-Each project is developed in multiple versions.
-
-### Version 1
-
-Build the basic functionality using the Python concepts I already know.
-
-### Version 2
-
-Improve the project by adding validation and exception handling.
-
-### Later Versions
-
-Gradually introduce new concepts and useful features as I learn them.
-
-The goal is to **build projects while learning**, rather than trying to create everything at once.
-
----
-
-## 📁 Repository Structure
+## 🗂️ Repository Structure
 
 ```text
 python_projects_2026/
@@ -132,34 +117,47 @@ python_projects_2026/
 ├── Student Grade Management System/
 │   ├── student_grade_v1.py
 │   ├── student_grade_v2.py
+│   ├── student_v3.py
 │   └── README.md
 │
 └── README.md
-More projects will be added as I continue learning Python.
-
-🎯 Learning Goal
-
-The main goal of this repository is to strengthen my Python programming skills through hands-on projects and gradually progress from basic Python programming to more advanced concepts.
-
-🚀 Future Projects
-
-Planned projects include:
-
-📝 Quiz Application
-📚 Personal Library Manager
-📊 Sales Data Analyzer
-
-These projects will gradually introduce new Python concepts and later support my learning path toward Data Science and Machine Learning.
-
-📊 Progress
+📊 Project Progress
 Project	Version	Status
-💰 Expense Tracker	V3	✅ Completed
-🎓 Student Grade Management System	V2	✅ Completed
-📝 Quiz Application	—	🔜 Planned
-📚 Personal Library Manager	—	🔜 Planned
-📊 Sales Data Analyzer	—	🔜 Planned
-👨‍💻 Author
+💰 Expense Tracker	V3	✅ Complete
+🎓 Student Grade Management System	V3	✅ Complete
+🚀 Learning Approach
 
-Keerthi Reddy
+Each project is developed progressively:
 
-Learning Python by building projects step-by-step. 🐍🔥
+Basic Functionality
+        ↓
+Validation
+        ↓
+Exception Handling
+        ↓
+Feature Improvements
+        ↓
+Edge-Case Testing
+        ↓
+Final Version
+
+Instead of building everything at once, I improve each project version-by-version while strengthening my understanding of Python.
+
+🎯 Future Projects
+
+More Python projects will be added as I continue learning topics such as:
+
+NumPy
+Pandas
+Matplotlib
+Data Analysis
+Machine Learning
+SQL + Python integration
+AI/ML projects
+👨‍💻 About
+
+Keerthi
+
+B.Tech – Electronics & Communication Engineering
+
+This repository documents my journey of learning Python through consistent practice and project development.
