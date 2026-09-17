@@ -2,7 +2,7 @@
 
 A collection of Python projects built while learning and strengthening my Python programming skills through hands-on practice.
 
-The goal of this repository is to move beyond theory by building projects step-by-step, improving them through multiple versions, and practicing real programming concepts such as data structures, functions, validation, exception handling, file handling, and data analysis.
+The goal of this repository is to move beyond theory by building projects step-by-step, improving them through multiple versions, and practicing real programming concepts such as data structures, functions, validation, exception handling, file handling, sorting, and data analysis.
 
 ---
 
@@ -57,8 +57,9 @@ A console-based application for managing student records and analyzing academic 
 **V2 – Validation & Exception Handling**
 - Student ID validation
 - Duplicate ID prevention
+- Positive ID validation
 - Name validation
-- Marks validation (0–100)
+- Marks validation (`0–100`)
 - Invalid search/delete handling
 - `y/n` validation
 - Exception handling
@@ -70,9 +71,22 @@ A console-based application for managing student records and analyzing academic 
 - Class average
 - Grade distribution
 - Pass/Fail statistics
-- Edge-case and boundary testing
+- Edge-case testing
+- Boundary testing
 
-**Status:** ✅ V3 Complete
+**V4 – Reports, Ranking & Display**
+- Individual student reports
+- All students report
+- Performance ranking
+- Enhanced student search
+- Improved menu and report display
+- Consistent headings and output formatting
+- Full functional testing
+- Multiple-student testing
+- Delete and recalculation testing
+- Tie-case testing
+
+**Status:** ✅ V4 Complete
 
 ---
 
@@ -96,6 +110,8 @@ Through these projects, I have practiced:
 - JSON
 - Searching and deleting data
 - Mathematical calculations
+- Sorting
+- `lambda`
 - Basic data analysis
 - Menu-driven applications
 - Git & GitHub
@@ -118,13 +134,12 @@ python_projects_2026/
 │   ├── student_grade_v1.py
 │   ├── student_grade_v2.py
 │   ├── student_v3.py
+│   ├── student_v4.py
 │   └── README.md
-│
-└── README.md
 📊 Project Progress
 Project	Version	Status
 💰 Expense Tracker	V3	✅ Complete
-🎓 Student Grade Management System	V3	✅ Complete
+🎓 Student Grade Management System	V4	✅ Complete
 🚀 Learning Approach
 
 Each project is developed progressively:
@@ -136,6 +151,8 @@ Validation
 Exception Handling
         ↓
 Feature Improvements
+        ↓
+Reports & Analysis
         ↓
 Edge-Case Testing
         ↓
@@ -160,4 +177,6 @@ Keerthi
 
 B.Tech – Electronics & Communication Engineering
 
-This repository documents my journey of learning Python through consistent practice and project development.
+This repository documents my journey of learning Python through consistent practice, hands-on projects, version-by-version improvements, and practical problem solving.
+│
+└── README.md
