@@ -2,7 +2,7 @@
 
 A collection of Python projects built while learning and strengthening my Python programming skills through hands-on practice.
 
-The goal of this repository is to move beyond theory by building projects step-by-step, improving them through multiple versions, and practicing real programming concepts such as data structures, functions, validation, exception handling, file handling, sorting, and data analysis.
+The goal of this repository is to move beyond theory by building projects step-by-step, improving them through multiple versions, and practicing real programming concepts such as data structures, functions, validation, exception handling, file handling, JSON persistence, sorting, and data analysis.
 
 ---
 
@@ -86,7 +86,18 @@ A console-based application for managing student records and analyzing academic 
 - Delete and recalculation testing
 - Tie-case testing
 
-**Status:** ✅ V4 Complete
+**V5 – JSON Persistence**
+- JSON file storage using `json.dump()`
+- Load student data using `json.load()`
+- Automatic loading when the program starts
+- Automatic saving after adding a student
+- Automatic saving after deleting a student
+- Missing JSON file handling
+- Empty/invalid JSON handling using `JSONDecodeError`
+- Conversion of JSON string IDs back to integer IDs
+- Regression testing of V4 features with persisted data
+
+**Status:** ✅ V5 Complete
 
 ---
 
@@ -108,6 +119,9 @@ Through these projects, I have practiced:
 - Exception handling
 - File handling
 - JSON
+- JSON persistence
+- `json.dump()`
+- `json.load()`
 - Searching and deleting data
 - Mathematical calculations
 - Sorting
@@ -135,11 +149,15 @@ python_projects_2026/
 │   ├── student_grade_v2.py
 │   ├── student_v3.py
 │   ├── student_v4.py
+│   ├── student_v5.py
+│   ├── student.json
 │   └── README.md
+│
+└── README.md
 📊 Project Progress
 Project	Version	Status
 💰 Expense Tracker	V3	✅ Complete
-🎓 Student Grade Management System	V4	✅ Complete
+🎓 Student Grade Management System	V5	✅ Complete
 🚀 Learning Approach
 
 Each project is developed progressively:
@@ -153,6 +171,8 @@ Exception Handling
 Feature Improvements
         ↓
 Reports & Analysis
+        ↓
+Data Persistence
         ↓
 Edge-Case Testing
         ↓
@@ -178,5 +198,3 @@ Keerthi
 B.Tech – Electronics & Communication Engineering
 
 This repository documents my journey of learning Python through consistent practice, hands-on projects, version-by-version improvements, and practical problem solving.
-│
-└── README.md
