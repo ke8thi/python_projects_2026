@@ -132,18 +132,26 @@ A console-based application for managing books, library members, and book borrow
 - Prevent deletion of issued books
 - Prevent deletion of members who have borrowed books
 
-**Status:** ✅ V1 Complete
-
-#### Planned Versions
-
 **V2 – Validation & Exception Handling**
 
 - Book ID validation
 - Member ID validation
-- Duplicate ID prevention
-- Empty name/title validation
-- Invalid input handling
-- Improved issue/return validation
+- Duplicate Book ID prevention
+- Duplicate Member ID prevention
+- Empty title, author, and member name validation
+- Spaces-only input validation
+- Search choice validation
+- Book ID search validation
+- Title search validation
+- Issue and return validation
+- Delete operation validation
+- `y/n` input validation
+- `ValueError` handling using `try/except`
+- Edge-case and functional testing
+
+**Status:** ✅ V2 Complete
+
+#### Planned Versions
 
 **V3 – Library Analysis**
 
@@ -192,6 +200,8 @@ Through these projects, I have practiced:
 - Sets
 - Input validation
 - Exception handling
+- `try/except`
+- `ValueError`
 - File handling
 - JSON
 - JSON persistence
@@ -202,8 +212,10 @@ Through these projects, I have practiced:
 - Sorting
 - `lambda`
 - Boolean flags
+- `.strip()`
 - Menu-driven applications
 - Basic data analysis
+- Edge-case testing
 - Git & GitHub
 
 ---
@@ -231,6 +243,7 @@ python_projects_2026/
 │
 ├── Library Management System/
 │   ├── version-1.py
+│   ├── version-2.py
 │   └── README.md
 │
 └── README.md
@@ -244,7 +257,7 @@ python_projects_2026/
 |---|---:|---|
 | 💰 Expense Tracker | V3 | ✅ Complete |
 | 🎓 Student Grade Management System | V5 | ✅ Complete |
-| 📚 Library Management System | V1 | ✅ Complete |
+| 📚 Library Management System | V2 | ✅ Complete |
 
 ---
 
