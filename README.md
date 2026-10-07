@@ -2,7 +2,7 @@
 
 A collection of Python projects built while learning and strengthening my Python programming skills through hands-on practice.
 
-The goal of this repository is to move beyond theory by building projects step-by-step, improving them through multiple versions, and practicing real programming concepts such as data structures, functions, validation, exception handling, file handling, JSON persistence, sorting, and data analysis.
+The goal of this repository is to move beyond theory by building projects step-by-step, improving them through multiple versions, and practicing real programming concepts such as data structures, functions, validation, exception handling, file handling, JSON persistence, searching, statistics, and data analysis.
 
 ---
 
@@ -149,17 +149,25 @@ A console-based application for managing books, library members, and book borrow
 - `ValueError` handling using `try/except`
 - Edge-case and functional testing
 
-**Status:** ✅ V2 Complete
+**V3 – Library Analysis & Statistics**
 
-#### Planned Versions
-
-**V3 – Library Analysis**
-
+- Library statistics
 - Available vs issued books
 - Member borrowing statistics
+- Issue-count tracking
 - Most-issued books
-- Library statistics
-- Search and filtering improvements
+- Multiple most-issued books tie handling
+- Search by Book ID
+- Search by title
+- Search by author
+- Available/issued book filtering
+- Improved input validation
+- Full functional and edge-case testing
+- Code cleanup and logic simplification
+
+**Status:** ✅ V3 Complete
+
+#### Planned Versions
 
 **V4 – Reports & Display**
 
@@ -213,8 +221,12 @@ Through these projects, I have practiced:
 - `lambda`
 - Boolean flags
 - `.strip()`
+- `len()`
+- `max()`
+- Nested loops
 - Menu-driven applications
 - Basic data analysis
+- Statistics and counting
 - Edge-case testing
 - Git & GitHub
 
@@ -244,6 +256,7 @@ python_projects_2026/
 ├── Library Management System/
 │   ├── version-1.py
 │   ├── version-2.py
+│   ├── version-3.py
 │   └── README.md
 │
 └── README.md
@@ -257,7 +270,7 @@ python_projects_2026/
 |---|---:|---|
 | 💰 Expense Tracker | V3 | ✅ Complete |
 | 🎓 Student Grade Management System | V5 | ✅ Complete |
-| 📚 Library Management System | V2 | ✅ Complete |
+| 📚 Library Management System | V3 | ✅ Complete |
 
 ---
 
