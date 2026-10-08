@@ -2,7 +2,7 @@
 
 A collection of Python projects built while learning and strengthening my Python programming skills through hands-on practice.
 
-The goal of this repository is to move beyond theory by building projects step-by-step, improving them through multiple versions, and practicing real programming concepts such as data structures, functions, validation, exception handling, file handling, JSON persistence, searching, statistics, and data analysis.
+The goal of this repository is to move beyond theory by building projects step-by-step, improving them through multiple versions, and practicing real programming concepts such as data structures, functions, validation, exception handling, file handling, JSON persistence, searching, statistics, activity tracking, and data analysis.
 
 ---
 
@@ -111,7 +111,7 @@ A console-based application for managing student records and analyzing academic 
 
 ### 3. 📚 Library Management System
 
-A console-based application for managing books, library members, and book borrowing operations.
+A console-based application for managing books, library members, borrowing operations, and library activity.
 
 #### Versions
 
@@ -165,15 +165,25 @@ A console-based application for managing books, library members, and book borrow
 - Full functional and edge-case testing
 - Code cleanup and logic simplification
 
-**Status:** ✅ V3 Complete
+**V4 – Borrowing History & Activity Tracking**
+
+- Borrowing history for each book
+- Record successful book issues
+- Record successful book returns
+- Store Member ID with each history record
+- View individual book borrowing history
+- View member borrowing history across books
+- Recent library activity report
+- Book activity report
+- Track total times each book has been issued
+- Track total history records for each book
+- Empty-history handling
+- V3 regression testing after V4 changes
+- Full functional and edge-case testing
+
+**Status:** ✅ V4 Complete
 
 #### Planned Versions
-
-**V4 – Reports & Display**
-
-- Formatted library reports
-- Improved output organization
-- Better user interaction
 
 **V5 – JSON Persistence**
 
@@ -181,6 +191,7 @@ A console-based application for managing books, library members, and book borrow
 - Load library data when the program starts
 - Automatically save changes
 - Persistent library records
+- Preserve borrowing history between program runs
 
 **V6 – Final Polish**
 
@@ -204,6 +215,7 @@ Through these projects, I have practiced:
 - Lists
 - Dictionaries
 - Nested dictionaries
+- Lists of dictionaries
 - Tuples
 - Sets
 - Input validation
@@ -223,10 +235,13 @@ Through these projects, I have practiced:
 - `.strip()`
 - `len()`
 - `max()`
+- `.append()`
 - Nested loops
+- Searching and filtering
+- Counting and statistics
+- History and activity tracking
 - Menu-driven applications
 - Basic data analysis
-- Statistics and counting
 - Edge-case testing
 - Git & GitHub
 
@@ -257,6 +272,7 @@ python_projects_2026/
 │   ├── version-1.py
 │   ├── version-2.py
 │   ├── version-3.py
+│   ├── version-4.py
 │   └── README.md
 │
 └── README.md
@@ -270,7 +286,7 @@ python_projects_2026/
 |---|---:|---|
 | 💰 Expense Tracker | V3 | ✅ Complete |
 | 🎓 Student Grade Management System | V5 | ✅ Complete |
-| 📚 Library Management System | V3 | ✅ Complete |
+| 📚 Library Management System | V4 | ✅ Complete |
 
 ---
 
@@ -288,6 +304,8 @@ Exception Handling
 Feature Improvements
         ↓
 Reports & Analysis
+        ↓
+Activity & History Tracking
         ↓
 Data Persistence
         ↓
